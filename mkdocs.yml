@@ -1,7 +1,7 @@
 site_name: My Docs
 nav:
   - Introduction: index.md
-  - Anatomy of Docs: 01_anatomy.md
+  - Placeholders: 01_placeholders.md
 
 theme: 
   name: material
