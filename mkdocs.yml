@@ -2,6 +2,7 @@ site_name: My Docs
 nav:
   - Introduction: index.md
   - Placeholders: 01_placeholders.md
+  - Following Steps: 02_follow_steps.md
 
 theme: 
   name: material
