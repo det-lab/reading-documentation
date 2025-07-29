@@ -18,3 +18,7 @@ This kind of detail - how a program is run, which directory you're in, whether a
 * Context switches (e.g., "now open a Linux terminal" after installing WSL)
 
 Skipping a step doesn't always cause an immediate error. Sometimes it causes a later step to break in a way that can be hard to diagnose. Even worse, if you're working on something with many interdependent steps, you might spend hours debugging something that's actually caused by a skipped or altered instruction from the very beginning.
+
+---
+
+Even with clear guidance, issues can still arise, so let’s dive into how to effectively troubleshoot common problems you might encounter. [Click here to continue to the next section](03_troubleshooting.md) where we will go over best practices for troubleshooting using documentation.

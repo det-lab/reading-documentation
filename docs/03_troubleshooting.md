@@ -55,3 +55,7 @@ Instead of `ModuleNotFoundError`, try `pandas ModuleNotFoundError Python 3.11 vi
 * Trust that most errors are solvable with careful review and patience.
 
 * Use your error as a learning opportunity: if you figure it out, remember the fix.
+
+---
+
+With troubleshooting strategies in hand, it’s helpful to take a step back and familiarize yourself with the overall structure of good documentation to better navigate and utilize it. [Click here to continue to the next section](04_basic_structure.md) where we will go over some standard components of technical documentation.

@@ -7,4 +7,4 @@ This lesson will help you learn how to read documentation with purpose. We'll br
 
 ---
 
-Let's get started. [Click here to continue on to the next section](01_placeholders.md) where we will go over the typical components of technical documentation.
+Let's get started. [Click here to continue on to the next section](01_placeholders.md) where we will go over one of the most common components of technical documentation: placeholders.

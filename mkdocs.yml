@@ -1,8 +1,10 @@
-site_name: My Docs
+site_name: Understanding Technical Documentation
 nav:
   - Introduction: index.md
   - Placeholders: 01_placeholders.md
   - Following Steps: 02_follow_steps.md
+  - Troubleshooting: 03_troubleshooting.md
+  - Basic Structure: 04_basic_structure.md
 
 theme: 
   name: material

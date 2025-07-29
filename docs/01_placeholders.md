@@ -36,3 +36,7 @@ Sometime the docs won't use any special punctuation at all, just words like `myp
 * Check multiple examples. Sometimes a later example clarifies what an earlier placeholder meant.
 
 * When in doubt, try it with a safe value and see how the system responds.
+
+---
+
+Now that you’re comfortable identifying and understanding placeholders, it’s time to explore how to move forward confidently with the next steps when working through documentation. [Click here to continue to the next section](02_follow_steps) where we will go over best practices for following steps.
