@@ -3,13 +3,13 @@ One of the most common sources of frustration when working through technical doc
 
 When you're following documentation, be sure to **read each step in full before acting**. Don't just copy and paste blocks of code without understanding the context or prerequisites.
 
-Sometimes, a step looks trivial or like something you've done before, but includes a small variation that makes it essential. For example, when installing the Windows Subsystem for Linux (WSL), the instructions include the line:
+Sometimes, a step looks trivial or like something you've done before, but includes a small variation that makes it essential. For example, when installing the Windows Subsystem for Linux (WSL), [the instructions](https://learn.microsoft.com/en-us/windows/wsl/install) include the line:
 
-> "Run Powershell as Administrator"
+>Open PowerShell in administrator mode by right-clicking and selecting "Run as administrator"
 
 If you skip that and open a normal Powershell window, several of the next steps will silently fail or produce errors, and it may not be obvious that the problem was your permissions when you go to troubleshoot them. The documentation assumes you followed *every* step, so if you didn't, the help it provides may no longer apply. 
 
-This kind of detail - how a program is run, which directory you're in, whether a file has been downloaded yet - is often where beginner mistakes happen. Always check for:
+This kind of detail - how a program is run, which directory you're in, whether a file has been downloaded yet - is often where mistakes happen. Always check for:
 
 * Role or permissions requirements (e.g., "run as root", or "use an admin shell")
 
@@ -21,4 +21,4 @@ Skipping a step doesn't always cause an immediate error. Sometimes it causes a l
 
 ---
 
-Even with clear guidance, issues can still arise, so let’s dive into how to effectively troubleshoot common problems you might encounter. [Click here to continue to the next section](03_troubleshooting.md) where we will go over best practices for troubleshooting using documentation.
+Even with clear guidance, issues can still arise, so let’s dive into how to handle problems that you might encounter. [Click here to continue to the next section](03_troubleshooting.md) where we will go over best practices for troubleshooting using documentation.

@@ -1,18 +1,18 @@
 # When Something Doesn't Work: Troubleshooting with Documentation
-Even if you follow the documentation closely, it is still possible to run into errors. This doesn't necessarily mean that the documentation is inadequate or that you made a mistake, but figuring out what when wrong in these situations means approaching the error systematically.
+Even if you follow the documentation closely, it is still possible to run into errors. This doesn't necessarily mean that the documentation is inadequate or that you made a mistake, but figuring out what went wrong in these situations means approaching the error systematically.
 
 Documentation can be treated much like a map: retrace your steps, look for landmarks you missed, and read carefully for assumptions or conditions that might not have applied to you.
 
 ## Revisit the Instructions
-When things go wrong, go back to the last few steps and ask:
+When things go wrong, go back to the beginning of the documentation and ask:
 
-* Did I really complete each step? Look for things that didn't give feedback; maybe they failed silently.
+* **Did I really complete each step?** Look for things that didn't give feedback; maybe they failed silently.
 
-* Was I in the right environment? For example, in the correct folder, using the correct version of Python, etc.
+* **Was I in the right environment?** For example, in the correct folder, using the correct version of Python, etc.
 
-* Did I skip any prerequisites, notes, or special instructions? Check for things like *"if you're on macOS...", "requires admin privileges,"* or *"restart your shell after installing..."*
+* **Did I skip any prerequisites, notes, or special instructions?** Check for things like *"if you're on macOS...", "requires admin privileges,"* or *"restart your shell after installing..."*
 
-Reading documentation thoroughly sometimes means re-reading it. Especially with long installation or setup processes, going back two or three steps can often reveal what's missing.
+Reading documentation thoroughly often means re-reading it. Especially with long installation or setup processes, going back to the very beginning can often reveal what's missing.
 
 ## Identify an Error
 If an error message appears, the best option isn't always to just copy and paste it into a search engine. Instead, sometimes try:
@@ -41,7 +41,7 @@ For example, the `conda` package manager has multiple steps for installing packa
 If the documentation includes a **troubleshooting** or **FAQ** section, go there immediately. They're written precisely for moments like this.
 
 ## Gather Evidence and Context Before Seeking Help
-If you've checked the documentation and you're still stuck, it's okay to look elsewhere. To do that efficiently:
+If you've checked the documentation and you're still stuck, it's time to look elsewhere. To do that efficiently:
 
 * Search with context. Include tool names and versions when searching for errors.
 
@@ -54,7 +54,7 @@ Instead of `ModuleNotFoundError`, try `pandas ModuleNotFoundError Python 3.11 vi
 
 * Trust that most errors are solvable with careful review and patience.
 
-* Use your error as a learning opportunity: if you figure it out, remember the fix.
+* Reach out to a human mentor if at all possible. 
 
 ---
 

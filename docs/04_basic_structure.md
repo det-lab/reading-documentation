@@ -19,7 +19,7 @@ This is often one of the first sections you'll look for when getting started. It
 
 * System or language requirements
 
-* Step-by-step setup commands (such as `pip install`)
+* Step-by-step setup commands (such as `pip install ...`)
 
 * Configuration tips or prerequisites
 
@@ -47,27 +47,18 @@ Here, you'll find more detailed instructions on how to use the tool, often with:
 
 This section helps you move beyond copy-pasting and start adapting examples to your own needs.
 
-## API Reference or Command Reference
+## Function Reference
 This is the technical heart of most documentation. It's usually more formal and structured, covering:
 
-* Functions, methods, classes, or commands
+* The inputs 
 
-* Their inputs, outputs, and behaviors
+* The outputs
 
-* Notes on defaults, edge cases, and usage limits
+* Example usage
 
 This is where you'll go when you need specifics about how something works.
 
-## Configuration/Settings
-If the tool is configurable, this section will describe:
-
-* Available settings or options
-
-* Default values
-
-* How to override or modify behavior
-
-Understanding this section can help you customize the tool to fit your project or environment.
+Take a look at the documentation for [numpy's arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) which lists the parameters, returns, and examples.
 
 ## Troubleshooting or FAQ
 Things don't always work the first time. Good documentation includes:
