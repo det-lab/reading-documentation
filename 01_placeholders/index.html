@@ -272,6 +272,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How to Recognize a Placeholder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-placeholders" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Placeholders
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -390,6 +405,21 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="How to Recognize a Placeholder">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#example-placeholders" class="md-nav__link">
+    <span class="md-ellipsis">
+      Example Placeholders
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
@@ -437,7 +467,7 @@
 <p><code>REPLACE_ME</code></p>
 </li>
 </ul>
-<p>An important thing to pay attention to regarding placeholder text is the surrounding punctuation. Placeholders are often surrounded by square, curly, or angle brackets (<code>[]</code>, <code>{}</code>, <code>&lt;&gt;</code>) to make the part you need to replace more noticeable. You're usually <strong>not</strong> supposed to include the brackets when you enter your own value.</p>
+<p>An important thing to pay attention to regarding placeholder text is the surrounding punctuation. Placeholders are often surrounded by square, curly, or angle brackets (<code>[]</code>, <code>{}</code>, <code>&lt;&gt;</code>) to make the part you need to replace more noticeable. You're <strong>not</strong> supposed to include the brackets when you enter your own value.</p>
 <h2 id="how-to-recognize-a-placeholder">How to Recognize a Placeholder</h2>
 <p>If you're unsure whether something is a placeholder:</p>
 <ul>
@@ -452,6 +482,104 @@
 </li>
 </ul>
 <p>Sometime the docs won't use any special punctuation at all, just words like <code>myproject</code>, <code>your_site</code>, or <code>localhost</code>. Be alert for these even if they <em>look</em> like real values.</p>
+<h3 id="example-placeholders">Example Placeholders</h3>
+<p>Take a look at this <a href="https://det-lab.github.io/docker-lesson/03_docker-ssh/">Docker SSH tutorial</a> and see if you can find all of the lines which use placeholder text.</p>
+<details>
+<summary>Answer</summary>
+<p>
+
+
+<pre><code class="language-bash">mkdir example-ssh-container
+cd example-ssh-container
+</code></pre>
+
+
+
+<pre><code class="language-bash">RUN mkdir /var/run/sshd &amp;&amp; echo 'root:&lt;your-new-password&gt;' | chpasswd
+</code></pre>
+
+
+
+<pre><code class="language-bash">docker build -t example-ssh-container .
+</code></pre>
+
+
+
+<pre><code class="language-bash">docker run -d -p 2222:22 --name ssh-container example-ssh-container
+</code></pre>
+
+</p>
+</details>
+
+<p>Now let's take a look at this <a href="https://docs.gitlab.com/user/ssh/#generate-an-ssh-key-pair">SSH key generation guide</a>. Try and find all of the lines between the sections <strong>Generate an SSH key pair</strong> and <strong>Add an SSH key to your GitLab account</strong> which contain placeholder text.</p>
+<details>
+<summary>Answer</summary>
+<p>
+
+
+<pre><code class="language-shell">ssh-keygen -t ed25519 -C &quot;&lt;comment&gt;&quot;
+</code></pre>
+
+
+
+<pre><code class="language-shell">ssh-keygen -t rsa -b 2048 -C &quot;&lt;comment&gt;&quot;
+</code></pre>
+
+
+
+<pre><code class="language-shell">ssh-add &lt;directory to private SSH key&gt;
+</code></pre>
+
+
+
+<pre><code class="language-shell"># GitLab.com
+Host gitlab.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/gitlab_com_rsa
+
+# Private GitLab instance
+Host gitlab.company.com
+  PreferredAuthentications publickey
+  IdentityFile ~/.ssh/example_com_rsa
+</code></pre>
+
+
+**gitlab_com_rsa**, **gitlab.company.com**, and **example_com_rsa** are all placeholder text. In this case, the placeholder text is not set off with any kind of brackets which can make it particularly hard to notice.
+
+</p>
+</details>
+
+<p>Try and find all the placeholder text from this guide for <a href="https://git-scm.com/book/en/v2/Getting-Started-First-Time-Git-Setup">Getting Started - First-Time Git Setup</a>.</p>
+<details>
+<summary>Answer</summary>
+<p>
+
+
+<pre><code class="language-bash">[path]/etc/gitconfig
+</code></pre>
+
+
+
+<pre><code class="language-bash">$ git config --global user.name &quot;John Doe&quot;
+$ git config --global user.email johndoe@example.com
+</code></pre>
+
+
+
+<pre><code class="language-bash">$ git config --global init.defaultBranch main
+</code></pre>
+
+
+
+<pre><code class="language-bash">$ git config --list
+user.name=John Doe
+user.email=johndoe@example.com
+</code></pre>
+
+
+</p>
+</details>
+
 <h2 id="best-practices">Best Practices</h2>
 <ul>
 <li>
