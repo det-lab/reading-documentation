@@ -128,4 +128,4 @@ user.email=johndoe@example.com
 
 ---
 
-Now that you’re comfortable identifying and understanding placeholders, it’s time to explore how to move forward confidently with the next steps when working through documentation. [Click here to continue to the next section](02_follow_steps) where we will go over best practices for following steps.
+Now that you’re comfortable identifying and understanding placeholders, it’s time to explore how to move forward confidently with the next steps when working through documentation. [Click here to continue to the next section](02_follow_steps.md) where we will go over best practices for following steps.
