@@ -14,6 +14,18 @@ This section gives you a high-level understanding of what the tool or library do
 
 If you're deciding whether a tool is right for your project, this is the place to start.
 
+>## Exercise
+>Take a look at the [overview section for WSL's documentation](https://learn.microsoft.com/en-us/windows/wsl/about). Find where the key features or benefits are listed.
+><details>
+><summary>Solution</summary>
+><p>
+>
+>**Key features or benefits:** 
+>![wsl features](images/wsl-features.png)
+>
+></p>
+></details> 
+
 ## Installation Instructions
 This is often one of the first sections you'll look for when getting started. It typically includes:
 
@@ -25,6 +37,26 @@ This is often one of the first sections you'll look for when getting started. It
 
 Clear installation docs help ensure you can get the tool up and running without unnecessary roadblocks.
 
+>## Exercise
+>Take a look at [the installation instructions for NumPy](https://numpy.org/install/) and find the steps required to install the package using `conda` or `pip`.
+><details>
+><summary>Solution</summary>
+><p>
+>
+>**Conda:**
+>```bash
+>conda create -n my-env
+>conda activate my-env
+>conda install numpy
+>```
+>**Pip:**
+>```bash
+>pip install numpy
+>```
+>
+></p>
+></details>
+
 ## Getting Started or Quick Start Guide
 This section offers a minimal working example to help you see the tool in action. It's designed to:
 
@@ -35,6 +67,20 @@ This section offers a minimal working example to help you see the tool in action
 * Help you build early confidence in using the tool
 
 Quick starts are especially helpful when you're new to the tool and just want to see how it behaves.
+
+>## Exercise
+>Take a look at the section for [getting started using Visual Studio Code with WSL](https://learn.microsoft.com/en-us/windows/wsl/tutorials/wsl-vscode) and find the command required to open a VSCode project from WSL.
+>
+><details>
+><summary>Solution</summary>
+><p>
+>
+>```bash
+>code .
+>```
+>
+></p>
+></details>
 
 ## Usage and Examples
 Here, you'll find more detailed instructions on how to use the tool, often with:
@@ -58,7 +104,27 @@ This is the technical heart of most documentation. It's usually more formal and 
 
 This is where you'll go when you need specifics about how something works.
 
-Take a look at the documentation for [numpy's arange](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) which lists the parameters, returns, and examples.
+>## Exercise
+>Take a look at the documentation for [numpy's arange module](https://numpy.org/doc/stable/reference/generated/numpy.arange.html) and find the possible inputs (parameters) it can accept.
+>
+><details>
+><summary>Solution</summary>
+><p>
+>
+>* **start**
+>
+>* **stop**
+>
+>* **step**
+>
+>* **dtype**
+>
+>* **device**
+>
+>* **like**
+>
+></p>
+></details>
 
 ## Troubleshooting or FAQ
 Things don't always work the first time. Good documentation includes:
